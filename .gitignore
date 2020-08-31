@@ -1,0 +1,8 @@
+imgs/
+configurations.ini
+
+
+# pycharm IDE
+.idea/
+__pycache__/
+
