@@ -1,0 +1,15 @@
+# File name: databasebox.kv
+<DatabaseButton@ToggleButton>:
+    size_hint: None, None
+    size: 48, 48
+    group: 'tool'
+
+<DatabaseBox@GridLayout>:
+    cols: 2
+    padding: 2
+    DatabaseButton:
+        text: 'O'
+    DatabaseButton:
+        text: '/'
+    DatabaseButton:
+        text: '?'
